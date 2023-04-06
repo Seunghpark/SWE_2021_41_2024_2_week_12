@@ -1,7 +1,5 @@
 from typing import List
 
-# Worked in collaboration with khyunjin1993:
-
 def path_to_file_list(path: str) -> List[str]:
     lines = open(path, 'r').read().split('\n')
     return lines
